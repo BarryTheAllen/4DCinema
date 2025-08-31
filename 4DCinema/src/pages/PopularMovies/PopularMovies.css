@@ -1,0 +1,11 @@
+.popular-movies {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.popular-movies h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+}
