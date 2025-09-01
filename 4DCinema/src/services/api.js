@@ -1,7 +1,7 @@
 import axios from 'axios';
-
+const kinopoiskApiKey = import.meta.env.VITE_KINOPOISK_KEY;
 const API_URL = 'https://kinopoiskapiunofficial.tech/api/v2.2';
-const API_KEY = '7625a024-f74b-4152-a74a-8a93d85107eb';
+const API_KEY = kinopoiskApiKey;
 
 const api = axios.create({
   baseURL: API_URL,
